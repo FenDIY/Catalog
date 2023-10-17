@@ -1,0 +1,8 @@
+/workspaces/Catalog/obj/Debug/net5.0/Catalog.csproj.AssemblyReference.cache
+/workspaces/Catalog/obj/Debug/net5.0/Catalog.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/Catalog/obj/Debug/net5.0/Catalog.AssemblyInfoInputs.cache
+/workspaces/Catalog/obj/Debug/net5.0/Catalog.AssemblyInfo.cs
+/workspaces/Catalog/obj/Debug/net5.0/Catalog.csproj.CoreCompileInputs.cache
+/workspaces/Catalog/obj/Debug/net5.0/Catalog.MvcApplicationPartsAssemblyInfo.cs
+/workspaces/Catalog/obj/Debug/net5.0/Catalog.MvcApplicationPartsAssemblyInfo.cache
+/workspaces/Catalog/obj/Debug/net5.0/Catalog.csprojAssemblyReference.cache
