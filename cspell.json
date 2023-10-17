@@ -3,7 +3,18 @@
     "ignorePaths": [],
     "dictionaryDefinitions": [],
     "dictionaries": [],
-    "words": [],
+    "words": [
+        "codezombiech",
+        "csdevkit",
+        "csharpextensions",
+        "dotnettools",
+        "equinusocio",
+        "Expt",
+        "intellicode",
+        "kreativ",
+        "mhutchie",
+        "vscodeintellicode"
+    ],
     "ignoreWords": [],
     "import": []
 }

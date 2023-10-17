@@ -15,7 +15,16 @@
 			"settings": {},
 			"extensions": [
 				"streetsidesoftware.code-spell-checker",
-				"vscode-icons-team.vscode-icons"
+				"vscode-icons-team.vscode-icons",
+				"ms-dotnettools.vscode-dotnet-runtime",
+				"ms-dotnettools.csharp",
+				"ms-dotnettools.csdevkit",
+				"kreativ-software.csharpextensions",
+				"mhutchie.git-graph",
+				"codezombiech.gitignore",
+				"VisualStudioExptTeam.intellicode-api-usage-examples",
+				"ms-dotnettools.vscodeintellicode-csharp",
+				"equinusocio.vsc-material-theme-icons"
 			]
 		}
 	},
