@@ -13,17 +13,18 @@ namespace Catalog.Controllers
     public class ItemsController : ControllerBase
     {
         private readonly InMemItemsRepository repository;
-    }
 
-    public ItemsController()
-    {
-        repository = new InMemItemsRepository();
-    }
+        public ItemsController()
+        {
+            repository = new InMemItemsRepository();
+        }
 
-    [HttpGet]
-    public IEnumberable<Item> GetItems()
-    {
-        var items = repository.GetItems();
-        return items;
+        [HttpGet]
+        public IEnumerable<Item> GetItems()
+        {
+            var items = repository.GetItems();
+            return items;
+        }        
+
     }
 }

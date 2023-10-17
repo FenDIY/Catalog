@@ -24,7 +24,8 @@
 				"codezombiech.gitignore",
 				"VisualStudioExptTeam.intellicode-api-usage-examples",
 				"ms-dotnettools.vscodeintellicode-csharp",
-				"equinusocio.vsc-material-theme-icons"
+				"equinusocio.vsc-material-theme-icons",
+				"VisualStudioExptTeam.vscodeintellicode"
 			]
 		}
 	},

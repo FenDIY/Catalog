@@ -22,5 +22,9 @@
         "Fira"
     ],
     "workbench.iconTheme": "vscode-icons",
-    "editor.fontWeight": "normal"
+    "editor.fontWeight": "normal",
+    // "omnisharp.useModernNet":false,
+    // "dotnet.server.useOmnisharp": true,
+    "dotnet.preferRuntimeFromSDK": true,
+    "dotnet.backgroundAnalysis.analyzerDiagnosticsScope": "openFiles"
 }
