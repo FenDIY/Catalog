@@ -452,3 +452,9 @@ $RECYCLE.BIN/
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+bin/Debug/net5.0/Catalog.dll
+bin/Debug/net5.0/Catalog.dll
+bin/Debug/net5.0/Catalog.pdb
+obj/Debug/net5.0/Catalog.csproj.FileListAbsolute.txt
+obj/Debug/net5.0/Catalog.dll
+obj/Debug/net5.0/Catalog.pdb

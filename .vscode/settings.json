@@ -7,5 +7,20 @@
         "devcontainer",
         "devcontainers",
         "reqs"
-    ]
+    ],
+    "editor.fontFamily": "FiraCode Nerd Font Mono",
+    "terminal.integrated.fontFamily": "'DroidSansMono NF Book', 'FiraCode Nerd Font Mono', 'FiraCode NF', 'Cascadia Code PL', 'devicon Regular', 'Fira Code Retina', 'Fira Code Light', 'Courier New', monospace", 
+    "editor.fontLigatures": true ,
+  
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs":"active",
+    "breadcrumbs.enabled": true,
+    "editor.wordWrap": "on",
+    "cSpell.userWords": [
+        "Cascadia",
+        "devicon",
+        "Fira"
+    ],
+    "workbench.iconTheme": "vscode-icons",
+    "editor.fontWeight": "normal"
 }
