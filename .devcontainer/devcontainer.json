@@ -25,7 +25,8 @@
 				"VisualStudioExptTeam.intellicode-api-usage-examples",
 				"ms-dotnettools.vscodeintellicode-csharp",
 				"equinusocio.vsc-material-theme-icons",
-				"VisualStudioExptTeam.vscodeintellicode"
+				"VisualStudioExptTeam.vscodeintellicode",
+				"ms-azuretools.vscode-docker"
 			]
 		}
 	},
@@ -39,6 +40,13 @@
 		},
 		"5001": {
 			"protocol": "https"
+		}
+	},
+	"features": {
+		"ghcr.io/devcontainers/features/docker-outside-of-docker:1": {
+			"moby": true,
+			"version": "latest",
+			"dockerDashComposeVersion": "v2"
 		}
 	}
 
