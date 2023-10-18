@@ -1,0 +1,12 @@
+GET http://cautious-potato-x5grwjj67jxc64v7-5000.app.github.dev/swagger/index.html HTTP/1.1
+
+
+###
+GET https://cautious-potato-x5grwjj67jxc64v7-5001.app.github.dev/swagger/index.html HTTP/1.1
+
+###
+GET http://cautious-potato-x5grwjj67jxc64v7-5000.app.github.dev/items HTTP/1.1
+
+
+###
+GET https://cautious-potato-x5grwjj67jxc64v7-5001.app.github.dev/items/ HTTP/1.1

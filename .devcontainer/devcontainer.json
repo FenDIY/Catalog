@@ -28,7 +28,8 @@
 				"equinusocio.vsc-material-theme-icons",
 				"VisualStudioExptTeam.vscodeintellicode",
 				"ms-azuretools.vscode-docker",
-                "mongodb.mongodb-vscode"
+				"mongodb.mongodb-vscode",
+				"humao.rest-client"
 			]
 		}
 	},
