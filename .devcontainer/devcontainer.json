@@ -1,9 +1,10 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/devcontainers/templates/tree/main/src/dotnet
+// README at: https://github.com/devcontainers/templates/tree/main/src/dotnet-postgres
 {
-	"name": "C# (.NET)",
-	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/dotnet:5.0-focal",
+    "name": "C# (.NET) and Mongo DB",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "app",
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
@@ -26,7 +27,8 @@
 				"ms-dotnettools.vscodeintellicode-csharp",
 				"equinusocio.vsc-material-theme-icons",
 				"VisualStudioExptTeam.vscodeintellicode",
-				"ms-azuretools.vscode-docker"
+				"ms-azuretools.vscode-docker",
+                "mongodb.mongodb-vscode"
 			]
 		}
 	},
@@ -47,7 +49,12 @@
 	// }
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [5000, 5001],
+	// "forwardPorts": [5000, 5001, 5432],
+	// "portsAttributes": {
+	//		"5001": {
+	//			"protocol": "https"
+	//		}
+	// }
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "dotnet restore",
