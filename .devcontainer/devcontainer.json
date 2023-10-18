@@ -41,13 +41,9 @@
 		"5001": {
 			"protocol": "https"
 		}
-	},
-	"features": {
-		"ghcr.io/devcontainers/features/docker-outside-of-docker:1": {
-			"moby": true,
-			"version": "latest",
-			"dockerDashComposeVersion": "v2"
-		}
+	}
+	// , "features": {
+	// 	}
 	}
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
