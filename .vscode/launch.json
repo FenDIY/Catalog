@@ -22,6 +22,11 @@
             "env": {
                 "ASPNETCORE_ENVIRONMENT": "Development"
             },
+            // "serverReadyAction": {
+            //     "action": "openExternally",
+            //     "pattern": "\\bNow listening on:\\s+https://0.0.0.0:([0-9]+)",
+            //     "uriFormat": "https://0.0.0.0:%s/swagger"
+            // },
             "sourceFileMap": {
                 "/Views": "${workspaceFolder}/Views"
             }

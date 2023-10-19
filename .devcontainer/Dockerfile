@@ -1,9 +1,6 @@
 FROM mcr.microsoft.com/devcontainers/dotnet:5.0-focal
-ARG BUILD_CONFIGURATION=Debug
-ENV ASPNETCORE_ENVIRONMENT=Development
-ENV DOTNET_USE_POLLING_FILE_WATCHER=true  
-ENV ASPNETCORE_URLS=http://+:80  
-EXPOSE 80
+ENV ASPNETCORE_URLS=http://0.0.0.0:5001 
+EXPOSE 5001
 
 # Install MongoDB command line tools - though mongo-database-tools not available on arm64
 ARG MONGO_TOOLS_VERSION=6.0
